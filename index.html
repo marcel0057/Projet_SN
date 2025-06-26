@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgendaPlus - Gestion d'agenda moderne</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="container">
+      <header class="header">
+        <nav class="navbar">
+          <div class="logo">
+            <i class="fas fa-calendar-alt"></i>
+            <span>AgendaPlus</span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#features">Fonctionnalités</a></li>
+            <li><a href="#testimonials">Avis</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="auth-buttons">
+            <a href="#" class="btn btn-outline">Connexion</a>
+            <a href="#" class="btn btn-primary">Inscription</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="hero" id="hero">
+        <div class="hero-content">
+          <h1>Organisez votre temps avec élégance</h1>
+          <p class="subtitle">AgendaPlus transforme votre gestion du temps avec une interface moderne et des outils puissants.</p>
+          <div class="cta-buttons">
+            <a href="#features" class="btn btn-primary btn-large">Commencer</a>
+            <a href="#" class="btn btn-outline btn-large"><i class="fas fa-play-circle"></i> Voir la démo</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/logo.png" alt="Interface de l'application" class="dashboard-preview" />
+          <div class="color-spot spot-1"></div>
+          <div class="color-spot spot-2"></div>
+          <div class="color-spot spot-3"></div>
+        </div>
+      </main>
+
+      <section class="features" id="features">
+        <h2>Fonctionnalités clés</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon violet-bg"><i class="fas fa-clock"></i></div>
+            <h3>Rappels intelligents</h3>
+            <p>Ne manquez plus jamais un événement important.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon blue-bg"><i class="fas fa-share-alt"></i></div>
+            <h3>Collaboration</h3>
+            <p>Travaillez en équipe en temps réel.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon orange-bg"><i class="fas fa-chart-bar"></i></div>
+            <h3>Analytiques</h3>
+            <p>Visualisez votre emploi du temps facilement.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon green-bg"><i class="fas fa-sync-alt"></i></div>
+            <h3>Multi-plateforme</h3>
+            <p>Accédez à votre agenda partout.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <h2>Ce que nos utilisateurs disent</h2>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card">
+                <div class="quote">"AgendaPlus a transformé ma productivité !"</div>
+                <div class="user">
+                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Utilisateur" class="user-avatar" />
+                  <div class="user-info">
+                    <div class="user-name">Marie Dupont</div>
+                    <div class="user-title">Cheffe de projet</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="quote">"Interface intuitive et puissante !"</div>
+                <div class="user">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Utilisateur" class="user-avatar" />
+                  <div class="user-info">
+                    <div class="user-name">Jean Martin</div>
+                    <div class="user-title">Freelance</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="quote">"La synchronisation multi-appareils est parfaite."</div>
+                <div class="user">
+                  <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Utilisateur" class="user-avatar" />
+                  <div class="user-info">
+                    <div class="user-name">Sophie Leroy</div>
+                    <div class="user-title">Directrice marketing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control prev">&lt;</button>
+          <button class="carousel-control next">&gt;</button>
+          <div class="carousel-indicators"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fas fa-calendar-alt"></i>
+          <span>AgendaPlus</span>
+        </div>
+        <p class="footer-slogan">Organisez votre temps avec élégance</p>
+      </div>
+
+      <div class="footer-links-container">
+        <div class="footer-links-group">
+          <h4>Produit</h4>
+          <ul>
+            <li><a href="#features">Fonctionnalités</a></li>
+            <li><a href="#">Tarifs</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Entreprise</h4>
+          <ul>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carrières</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        © 2025 AgendaPlus. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
